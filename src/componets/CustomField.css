@@ -1,0 +1,264 @@
+
+:root{
+  --crmSprite: url(https://h2js.zohocdn.com/crm/images/svgicons_f2e82a4944c242c2371e05042ecc35eb_.svg);
+}
+
+input[type="text"] {
+    border: none;
+    /* Optionally, you can add additional styling */
+    /* For example: */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Transparent background */
+    padding: 8px 12px; /* Add padding for spacing */
+    font-size: 16px; /* Set font size */
+    border-radius: 4px; /* Add border radius for rounded corners */
+  }
+
+  @font-face {
+    font-family: 'Zoho_Puvi_SemiBold';
+    src: url('../public/Zoho_Puvi_Semibold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Zoho_Puvi_Regular';
+    src: url('../public/Zoho_Puvi_Regular.ttf') format('truetype');
+  }
+
+  #parentDiv{
+    width: 850px;
+  }
+
+  #title-expandable-textarea{
+    
+
+    width: 95%;
+    min-height: 20px; /* Set a minimum height */
+    resize: none; /* Prevent resizing */
+   height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+     /* border: none; */
+    /* Optionally, you can add additional styling */
+    /* For example: */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Transparent background */
+    padding: 4px 12px; /* Add padding for spacing */
+    font-size: 16px; /* Set font size */
+    border-radius: 4px;
+  }
+  #expandable-textarea {
+    width: 97%;
+    min-height: 30px; /* Set a minimum height */
+    resize: none; /* Prevent resizing */
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+     /* border: none; */
+    /* Optionally, you can add additional styling */
+    /* For example: */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Transparent background */
+    padding: 4px 12px; /* Add padding for spacing */
+    padding-top: 5px !important;
+    font-size: 16px; /* Set font size */
+    border-radius: 4px;
+  }
+  #expandable-textarea:focus {
+    border: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .addfocus{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    height:200px;
+    border-radius: 5px;
+  }
+  
+  button:disabled,
+button[disabled]{
+ 
+  /* background-color: #91cbff;
+  color:white; */
+
+  margin: 0;
+font-variant-ligatures: no-contextual;
+margin-right: 0!important;
+box-sizing: border-box;
+position: relative;
+text-align: center;
+white-space: nowrap;
+padding: 5px 15px;
+font-size: 0.9rem;
+font-family: var(--crm-font-semibold);
+border-radius: 4px;
+outline: 0;
+min-width: 18px;
+line-height: normal;
+background: #91CBFF;
+box-shadow: inset 0 -2px 0 #6AAFEB;
+border: 0;
+opacity: 1;
+cursor: not-allowed;
+pointer-events: none!important;
+top: 0!important;
+color: #fff;
+}
+  /* .expanded {
+    height: auto;
+  } */
+  
+  /* .flex-container {
+    display: flex;
+    
+  } */
+  
+  
+  /* .column1 {
+    float: left;
+    padding: 5px;
+    height: 300px; 
+  }
+  .column2 {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+  } */
+  
+  /* .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  } */
+  /* .column1{
+    display: grid;
+    grid-template-columns: auto auto;
+  } */
+
+    button{
+      padding: 0.4em 1.2em !important;
+    }
+  .save-button1{
+    /* background-color:#0279FF;
+    border: none;
+    color:white;
+    height: 30px; */
+
+
+    margin: 0;
+font-variant-ligatures: no-contextual;
+margin-right: 0!important;
+color: #fff;
+box-sizing: border-box;
+box-shadow: inset 0 -2px 0 #0061CA;
+background: transparent linear-gradient(0deg, #0279FF 0%, #00A3F3 100%);
+position: relative;
+border: 0;
+cursor: pointer;
+text-align: center;
+white-space: nowrap;
+padding: 5px 15px;
+font-size: 0.9rem;
+/* font-family: Zoho_Puvi_Medium, sans-serif; */
+border-radius: 4px;
+outline: 0;
+min-width: 18px;
+line-height: normal;
+/* border: none; */
+    
+     
+  }
+
+
+  .save-button1:focus{
+    outline: none;
+   
+  }
+  .cancel-button{
+    /* background-color: #EAEEF5;
+    border: 1px solid rgb(202, 196, 196);
+    border-radius: 4px;
+    margin: 5px;
+    height: 30px;
+    text-align: center;
+    color: ; */
+
+    /* border: none; */
+    font-variant-ligatures: no-contextual;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 8px;
+    white-space: nowrap;
+    border: 1px solid #D0D4DF;
+    color: #313949;
+    box-shadow: inset 0 -1px 0 #D0D4DF;
+    background: transparent linear-gradient(180deg, #FCFDFF 0%, #EAEEF5 100%);
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    /* font-family: Zoho_Puvi_Medium; */
+    border-radius: 4px;
+    outline: 0;
+    min-width: 18px;
+    line-height: normal;
+    color: #313949;
+  }
+  .cancel-button:focus{
+    outline: none;
+   
+  }
+
+  .flex-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+    padding-bottom: 7px;
+  
+    /* align-content: space-evenly; */
+  }
+  .attachment-icon{
+    padding: 2px 2px 2px 2px;
+    background: transparent var(--crmSprite) no-repeat -562px -154px;
+    width: 15px;
+    height: 16px;
+    margin-top: 2px;
+    left: 0%;
+  }
+
+  .attachment-icon:hover{
+    cursor: pointer;
+  }
+
+  /* .field-container{
+    padding-top: 1px;
+    
+  } */
+
+  .MuiFormControl-root{
+    height: 50px !important;
+    border: none !important;
+    
+    
+  }
+  .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root{
+    padding: 0px !important;
+   
+  }
+  .css-1p823my-MuiListItem-root{
+    padding-bottom: 0px !important;
+    
+    
+  }
+
